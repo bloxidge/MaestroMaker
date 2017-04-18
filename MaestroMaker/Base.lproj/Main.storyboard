@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="MaestroMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="760-on-bPs"/>
+                        <viewControllerLayoutGuide type="bottom" id="9a2-vW-CS5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lsk-F0-hhc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0kk-ex-gvX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                                <color key="backgroundColor" red="0.97592383623123169" green="0.97666221857070923" blue="0.97603815793991089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="43e-pZ-QSQ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="85w-U8-Zb0">
+                                        <barButtonItem key="leftBarButtonItem" image="Settings" id="ZEN-77-fGe">
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" image="Settings" id="2uc-6U-bCG">
+                                            <color key="tintColor" red="0.7265668511390686" green="0.41658878326416016" blue="0.75615555047988892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0kk-ex-gvX" secondAttribute="trailing" id="6rm-07-1pV"/>
+                            <constraint firstItem="0kk-ex-gvX" firstAttribute="top" secondItem="Lsk-F0-hhc" secondAttribute="top" id="S6a-2I-7LV"/>
+                            <constraint firstItem="0kk-ex-gvX" firstAttribute="leading" secondItem="Lsk-F0-hhc" secondAttribute="leading" id="Swy-gu-LBk"/>
+                            <constraint firstItem="43e-pZ-QSQ" firstAttribute="leading" secondItem="0kk-ex-gvX" secondAttribute="leading" id="TX9-Tv-3ap"/>
+                            <constraint firstItem="43e-pZ-QSQ" firstAttribute="trailing" secondItem="0kk-ex-gvX" secondAttribute="trailing" id="dQY-Yv-bQa"/>
+                            <constraint firstItem="43e-pZ-QSQ" firstAttribute="top" secondItem="0kk-ex-gvX" secondAttribute="bottom" id="u9A-08-bME"/>
+                            <constraint firstItem="43e-pZ-QSQ" firstAttribute="top" secondItem="760-on-bPs" secondAttribute="bottom" id="wxa-ii-tJ2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="titleItem" destination="85w-U8-Zb0" id="p4u-Fj-rIh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Settings" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD237B801EA5BAD000BD56A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD237B7F1EA5BAD000BD56A1 /* Assets.xcassets */; };
+		FD39951A1EA57FAB007569F4 /* LaunchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3995191EA57FAB007569F4 /* LaunchLogo.png */; };
+		FD39951C1EA5816B007569F4 /* LaunchScreenGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = FD39951B1EA5816B007569F4 /* LaunchScreenGradient.png */; };
+		FDE5D8501EA52DC0001144BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5D84F1EA52DC0001144BE /* AppDelegate.swift */; };
+		FDE5D8521EA52DC0001144BE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5D8511EA52DC0001144BE /* HomeViewController.swift */; };
+		FDE5D8551EA52DC0001144BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE5D8531EA52DC0001144BE /* Main.storyboard */; };
+		FDE5D85A1EA52DC0001144BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE5D8581EA52DC0001144BE /* LaunchScreen.storyboard */; };
+		FDE5D8651EA52DC0001144BE /* MaestroMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5D8641EA52DC0001144BE /* MaestroMakerTests.swift */; };
+		FDE5D8701EA52DC0001144BE /* MaestroMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5D86F1EA52DC0001144BE /* MaestroMakerUITests.swift */; };
+		FDE5D8751EA52DC0001144BE /* MaestroMaker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FDE5D8741EA52DC0001144BE /* MaestroMaker WatchKit App.app */; };
+		FDE5D87B1EA52DC0001144BE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE5D8791EA52DC0001144BE /* Interface.storyboard */; };
+		FDE5D87D1EA52DC0001144BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE5D87C1EA52DC0001144BE /* Assets.xcassets */; };
+		FDE5D8841EA52DC0001144BE /* MaestroMaker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FDE5D8831EA52DC0001144BE /* MaestroMaker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDE5D8891EA52DC0001144BE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5D8881EA52DC0001144BE /* InterfaceController.swift */; };
+		FDE5D88B1EA52DC0001144BE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5D88A1EA52DC0001144BE /* ExtensionDelegate.swift */; };
+		FDE5D88D1EA52DC0001144BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE5D88C1EA52DC0001144BE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDE5D8611EA52DC0001144BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE5D8441EA52DC0001144BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE5D84B1EA52DC0001144BE;
+			remoteInfo = MaestroMaker;
+		};
+		FDE5D86C1EA52DC0001144BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE5D8441EA52DC0001144BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE5D84B1EA52DC0001144BE;
+			remoteInfo = MaestroMaker;
+		};
+		FDE5D8761EA52DC0001144BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE5D8441EA52DC0001144BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE5D8731EA52DC0001144BE;
+			remoteInfo = "MaestroMaker WatchKit App";
+		};
+		FDE5D8851EA52DC0001144BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE5D8441EA52DC0001144BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE5D8821EA52DC0001144BE;
+			remoteInfo = "MaestroMaker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDE5D8941EA52DC0001144BE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FDE5D8841EA52DC0001144BE /* MaestroMaker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D8981EA52DC0001144BE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FDE5D8751EA52DC0001144BE /* MaestroMaker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FD237B7F1EA5BAD000BD56A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD3995191EA57FAB007569F4 /* LaunchLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchLogo.png; path = Resources/LaunchLogo.png; sourceTree = "<group>"; };
+		FD39951B1EA5816B007569F4 /* LaunchScreenGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreenGradient.png; path = Resources/LaunchScreenGradient.png; sourceTree = "<group>"; };
+		FDE5D84C1EA52DC0001144BE /* MaestroMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaestroMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE5D84F1EA52DC0001144BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDE5D8511EA52DC0001144BE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FDE5D8541EA52DC0001144BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDE5D8591EA52DC0001144BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDE5D85B1EA52DC0001144BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE5D8601EA52DC0001144BE /* MaestroMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaestroMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE5D8641EA52DC0001144BE /* MaestroMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaestroMakerTests.swift; sourceTree = "<group>"; };
+		FDE5D8661EA52DC0001144BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE5D86B1EA52DC0001144BE /* MaestroMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaestroMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE5D86F1EA52DC0001144BE /* MaestroMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaestroMakerUITests.swift; sourceTree = "<group>"; };
+		FDE5D8711EA52DC0001144BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE5D8741EA52DC0001144BE /* MaestroMaker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MaestroMaker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE5D87A1EA52DC0001144BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FDE5D87C1EA52DC0001144BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDE5D87E1EA52DC0001144BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE5D8831EA52DC0001144BE /* MaestroMaker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MaestroMaker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE5D8881EA52DC0001144BE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FDE5D88A1EA52DC0001144BE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FDE5D88C1EA52DC0001144BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDE5D88E1EA52DC0001144BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE5D8491EA52DC0001144BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D85D1EA52DC0001144BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D8681EA52DC0001144BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D8801EA52DC0001144BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD3995161EA57200007569F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD39951B1EA5816B007569F4 /* LaunchScreenGradient.png */,
+				FD3995191EA57FAB007569F4 /* LaunchLogo.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FDE5D8431EA52DC0001144BE = {
+			isa = PBXGroup;
+			children = (
+				FDE5D84E1EA52DC0001144BE /* MaestroMaker */,
+				FDE5D8631EA52DC0001144BE /* MaestroMakerTests */,
+				FDE5D86E1EA52DC0001144BE /* MaestroMakerUITests */,
+				FDE5D8781EA52DC0001144BE /* MaestroMaker WatchKit App */,
+				FDE5D8871EA52DC0001144BE /* MaestroMaker WatchKit Extension */,
+				FDE5D84D1EA52DC0001144BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE5D84D1EA52DC0001144BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5D84C1EA52DC0001144BE /* MaestroMaker.app */,
+				FDE5D8601EA52DC0001144BE /* MaestroMakerTests.xctest */,
+				FDE5D86B1EA52DC0001144BE /* MaestroMakerUITests.xctest */,
+				FDE5D8741EA52DC0001144BE /* MaestroMaker WatchKit App.app */,
+				FDE5D8831EA52DC0001144BE /* MaestroMaker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE5D84E1EA52DC0001144BE /* MaestroMaker */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5D8511EA52DC0001144BE /* HomeViewController.swift */,
+				FDE5D8531EA52DC0001144BE /* Main.storyboard */,
+				FD3995161EA57200007569F4 /* Resources */,
+				FDE5D8A21EA52DEF001144BE /* Supporting Files */,
+			);
+			path = MaestroMaker;
+			sourceTree = "<group>";
+		};
+		FDE5D8631EA52DC0001144BE /* MaestroMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5D8641EA52DC0001144BE /* MaestroMakerTests.swift */,
+				FDE5D8661EA52DC0001144BE /* Info.plist */,
+			);
+			path = MaestroMakerTests;
+			sourceTree = "<group>";
+		};
+		FDE5D86E1EA52DC0001144BE /* MaestroMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5D86F1EA52DC0001144BE /* MaestroMakerUITests.swift */,
+				FDE5D8711EA52DC0001144BE /* Info.plist */,
+			);
+			path = MaestroMakerUITests;
+			sourceTree = "<group>";
+		};
+		FDE5D8781EA52DC0001144BE /* MaestroMaker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5D8791EA52DC0001144BE /* Interface.storyboard */,
+				FDE5D8A31EA52E1B001144BE /* Supporting Files */,
+			);
+			path = "MaestroMaker WatchKit App";
+			sourceTree = "<group>";
+		};
+		FDE5D8871EA52DC0001144BE /* MaestroMaker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5D8881EA52DC0001144BE /* InterfaceController.swift */,
+				FDE5D8A41EA52E2F001144BE /* Supporting Files */,
+			);
+			path = "MaestroMaker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FDE5D8A21EA52DEF001144BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5D84F1EA52DC0001144BE /* AppDelegate.swift */,
+				FD237B7F1EA5BAD000BD56A1 /* Assets.xcassets */,
+				FDE5D8581EA52DC0001144BE /* LaunchScreen.storyboard */,
+				FDE5D85B1EA52DC0001144BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDE5D8A31EA52E1B001144BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5D87C1EA52DC0001144BE /* Assets.xcassets */,
+				FDE5D87E1EA52DC0001144BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDE5D8A41EA52E2F001144BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5D88A1EA52DC0001144BE /* ExtensionDelegate.swift */,
+				FDE5D88C1EA52DC0001144BE /* Assets.xcassets */,
+				FDE5D88E1EA52DC0001144BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE5D84B1EA52DC0001144BE /* MaestroMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE5D8991EA52DC0001144BE /* Build configuration list for PBXNativeTarget "MaestroMaker" */;
+			buildPhases = (
+				FDE5D8481EA52DC0001144BE /* Sources */,
+				FDE5D8491EA52DC0001144BE /* Frameworks */,
+				FDE5D84A1EA52DC0001144BE /* Resources */,
+				FDE5D8981EA52DC0001144BE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE5D8771EA52DC0001144BE /* PBXTargetDependency */,
+			);
+			name = MaestroMaker;
+			productName = MaestroMaker;
+			productReference = FDE5D84C1EA52DC0001144BE /* MaestroMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDE5D85F1EA52DC0001144BE /* MaestroMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE5D89C1EA52DC0001144BE /* Build configuration list for PBXNativeTarget "MaestroMakerTests" */;
+			buildPhases = (
+				FDE5D85C1EA52DC0001144BE /* Sources */,
+				FDE5D85D1EA52DC0001144BE /* Frameworks */,
+				FDE5D85E1EA52DC0001144BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE5D8621EA52DC0001144BE /* PBXTargetDependency */,
+			);
+			name = MaestroMakerTests;
+			productName = MaestroMakerTests;
+			productReference = FDE5D8601EA52DC0001144BE /* MaestroMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDE5D86A1EA52DC0001144BE /* MaestroMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE5D89F1EA52DC0001144BE /* Build configuration list for PBXNativeTarget "MaestroMakerUITests" */;
+			buildPhases = (
+				FDE5D8671EA52DC0001144BE /* Sources */,
+				FDE5D8681EA52DC0001144BE /* Frameworks */,
+				FDE5D8691EA52DC0001144BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE5D86D1EA52DC0001144BE /* PBXTargetDependency */,
+			);
+			name = MaestroMakerUITests;
+			productName = MaestroMakerUITests;
+			productReference = FDE5D86B1EA52DC0001144BE /* MaestroMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FDE5D8731EA52DC0001144BE /* MaestroMaker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE5D8951EA52DC0001144BE /* Build configuration list for PBXNativeTarget "MaestroMaker WatchKit App" */;
+			buildPhases = (
+				FDE5D8721EA52DC0001144BE /* Resources */,
+				FDE5D8941EA52DC0001144BE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE5D8861EA52DC0001144BE /* PBXTargetDependency */,
+			);
+			name = "MaestroMaker WatchKit App";
+			productName = "MaestroMaker WatchKit App";
+			productReference = FDE5D8741EA52DC0001144BE /* MaestroMaker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FDE5D8821EA52DC0001144BE /* MaestroMaker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE5D8911EA52DC0001144BE /* Build configuration list for PBXNativeTarget "MaestroMaker WatchKit Extension" */;
+			buildPhases = (
+				FDE5D87F1EA52DC0001144BE /* Sources */,
+				FDE5D8801EA52DC0001144BE /* Frameworks */,
+				FDE5D8811EA52DC0001144BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MaestroMaker WatchKit Extension";
+			productName = "MaestroMaker WatchKit Extension";
+			productReference = FDE5D8831EA52DC0001144BE /* MaestroMaker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE5D8441EA52DC0001144BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Peter Bloxidge";
+				TargetAttributes = {
+					FDE5D84B1EA52DC0001144BE = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9XT7VKS6C2;
+						ProvisioningStyle = Automatic;
+					};
+					FDE5D85F1EA52DC0001144BE = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9XT7VKS6C2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDE5D84B1EA52DC0001144BE;
+					};
+					FDE5D86A1EA52DC0001144BE = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9XT7VKS6C2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDE5D84B1EA52DC0001144BE;
+					};
+					FDE5D8731EA52DC0001144BE = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9XT7VKS6C2;
+						ProvisioningStyle = Automatic;
+					};
+					FDE5D8821EA52DC0001144BE = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9XT7VKS6C2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDE5D8471EA52DC0001144BE /* Build configuration list for PBXProject "MaestroMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE5D8431EA52DC0001144BE;
+			productRefGroup = FDE5D84D1EA52DC0001144BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE5D84B1EA52DC0001144BE /* MaestroMaker */,
+				FDE5D85F1EA52DC0001144BE /* MaestroMakerTests */,
+				FDE5D86A1EA52DC0001144BE /* MaestroMakerUITests */,
+				FDE5D8731EA52DC0001144BE /* MaestroMaker WatchKit App */,
+				FDE5D8821EA52DC0001144BE /* MaestroMaker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE5D84A1EA52DC0001144BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE5D85A1EA52DC0001144BE /* LaunchScreen.storyboard in Resources */,
+				FD39951A1EA57FAB007569F4 /* LaunchLogo.png in Resources */,
+				FDE5D8551EA52DC0001144BE /* Main.storyboard in Resources */,
+				FD237B801EA5BAD000BD56A1 /* Assets.xcassets in Resources */,
+				FD39951C1EA5816B007569F4 /* LaunchScreenGradient.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D85E1EA52DC0001144BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D8691EA52DC0001144BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D8721EA52DC0001144BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE5D87D1EA52DC0001144BE /* Assets.xcassets in Resources */,
+				FDE5D87B1EA52DC0001144BE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D8811EA52DC0001144BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE5D88D1EA52DC0001144BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE5D8481EA52DC0001144BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE5D8521EA52DC0001144BE /* HomeViewController.swift in Sources */,
+				FDE5D8501EA52DC0001144BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D85C1EA52DC0001144BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE5D8651EA52DC0001144BE /* MaestroMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D8671EA52DC0001144BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE5D8701EA52DC0001144BE /* MaestroMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE5D87F1EA52DC0001144BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE5D88B1EA52DC0001144BE /* ExtensionDelegate.swift in Sources */,
+				FDE5D8891EA52DC0001144BE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDE5D8621EA52DC0001144BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE5D84B1EA52DC0001144BE /* MaestroMaker */;
+			targetProxy = FDE5D8611EA52DC0001144BE /* PBXContainerItemProxy */;
+		};
+		FDE5D86D1EA52DC0001144BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE5D84B1EA52DC0001144BE /* MaestroMaker */;
+			targetProxy = FDE5D86C1EA52DC0001144BE /* PBXContainerItemProxy */;
+		};
+		FDE5D8771EA52DC0001144BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE5D8731EA52DC0001144BE /* MaestroMaker WatchKit App */;
+			targetProxy = FDE5D8761EA52DC0001144BE /* PBXContainerItemProxy */;
+		};
+		FDE5D8861EA52DC0001144BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE5D8821EA52DC0001144BE /* MaestroMaker WatchKit Extension */;
+			targetProxy = FDE5D8851EA52DC0001144BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDE5D8531EA52DC0001144BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE5D8541EA52DC0001144BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDE5D8581EA52DC0001144BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE5D8591EA52DC0001144BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FDE5D8791EA52DC0001144BE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE5D87A1EA52DC0001144BE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE5D88F1EA52DC0001144BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDE5D8901EA52DC0001144BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE5D8921EA52DC0001144BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 9XT7VKS6C2;
+				INFOPLIST_FILE = "MaestroMaker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloxidge.MaestroMaker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		FDE5D8931EA52DC0001144BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 9XT7VKS6C2;
+				INFOPLIST_FILE = "MaestroMaker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloxidge.MaestroMaker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		FDE5D8961EA52DC0001144BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XT7VKS6C2;
+				IBSC_MODULE = MaestroMaker_WatchKit_Extension;
+				INFOPLIST_FILE = "MaestroMaker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloxidge.MaestroMaker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		FDE5D8971EA52DC0001144BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XT7VKS6C2;
+				IBSC_MODULE = MaestroMaker_WatchKit_Extension;
+				INFOPLIST_FILE = "MaestroMaker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloxidge.MaestroMaker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		FDE5D89A1EA52DC0001144BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XT7VKS6C2;
+				INFOPLIST_FILE = MaestroMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloxidge.MaestroMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FDE5D89B1EA52DC0001144BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XT7VKS6C2;
+				INFOPLIST_FILE = MaestroMaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloxidge.MaestroMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FDE5D89D1EA52DC0001144BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9XT7VKS6C2;
+				INFOPLIST_FILE = MaestroMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloxidge.MaestroMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaestroMaker.app/MaestroMaker";
+			};
+			name = Debug;
+		};
+		FDE5D89E1EA52DC0001144BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9XT7VKS6C2;
+				INFOPLIST_FILE = MaestroMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloxidge.MaestroMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaestroMaker.app/MaestroMaker";
+			};
+			name = Release;
+		};
+		FDE5D8A01EA52DC0001144BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9XT7VKS6C2;
+				INFOPLIST_FILE = MaestroMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloxidge.MaestroMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MaestroMaker;
+			};
+			name = Debug;
+		};
+		FDE5D8A11EA52DC0001144BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9XT7VKS6C2;
+				INFOPLIST_FILE = MaestroMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bloxidge.MaestroMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MaestroMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE5D8471EA52DC0001144BE /* Build configuration list for PBXProject "MaestroMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE5D88F1EA52DC0001144BE /* Debug */,
+				FDE5D8901EA52DC0001144BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE5D8911EA52DC0001144BE /* Build configuration list for PBXNativeTarget "MaestroMaker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE5D8921EA52DC0001144BE /* Debug */,
+				FDE5D8931EA52DC0001144BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE5D8951EA52DC0001144BE /* Build configuration list for PBXNativeTarget "MaestroMaker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE5D8961EA52DC0001144BE /* Debug */,
+				FDE5D8971EA52DC0001144BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE5D8991EA52DC0001144BE /* Build configuration list for PBXNativeTarget "MaestroMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE5D89A1EA52DC0001144BE /* Debug */,
+				FDE5D89B1EA52DC0001144BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE5D89C1EA52DC0001144BE /* Build configuration list for PBXNativeTarget "MaestroMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE5D89D1EA52DC0001144BE /* Debug */,
+				FDE5D89E1EA52DC0001144BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE5D89F1EA52DC0001144BE /* Build configuration list for PBXNativeTarget "MaestroMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE5D8A01EA52DC0001144BE /* Debug */,
+				FDE5D8A11EA52DC0001144BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDE5D8441EA52DC0001144BE /* Project object */;
+}
