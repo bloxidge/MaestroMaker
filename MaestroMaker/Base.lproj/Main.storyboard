@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aFV-sO-2FO">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,54 +9,69 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--MaestroMaker-->
+        <scene sceneID="Hl6-t5-RYk">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="MaestroMaker" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="760-on-bPs"/>
-                        <viewControllerLayoutGuide type="bottom" id="9a2-vW-CS5"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Lsk-F0-hhc">
+                <tableViewController id="pdl-rp-B3L" customClass="MenuViewController" customModule="MaestroMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Rm2-X4-bxr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0kk-ex-gvX">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
-                                <color key="backgroundColor" red="0.97592383623123169" green="0.97666221857070923" blue="0.97603815793991089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="43e-pZ-QSQ">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <items>
-                                    <navigationItem title="Title" id="85w-U8-Zb0">
-                                        <barButtonItem key="leftBarButtonItem" image="Settings" id="ZEN-77-fGe">
-                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" image="Settings" id="2uc-6U-bCG">
-                                            <color key="tintColor" red="0.7265668511390686" green="0.41658878326416016" blue="0.75615555047988892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="0kk-ex-gvX" secondAttribute="trailing" id="6rm-07-1pV"/>
-                            <constraint firstItem="0kk-ex-gvX" firstAttribute="top" secondItem="Lsk-F0-hhc" secondAttribute="top" id="S6a-2I-7LV"/>
-                            <constraint firstItem="0kk-ex-gvX" firstAttribute="leading" secondItem="Lsk-F0-hhc" secondAttribute="leading" id="Swy-gu-LBk"/>
-                            <constraint firstItem="43e-pZ-QSQ" firstAttribute="leading" secondItem="0kk-ex-gvX" secondAttribute="leading" id="TX9-Tv-3ap"/>
-                            <constraint firstItem="43e-pZ-QSQ" firstAttribute="trailing" secondItem="0kk-ex-gvX" secondAttribute="trailing" id="dQY-Yv-bQa"/>
-                            <constraint firstItem="43e-pZ-QSQ" firstAttribute="top" secondItem="0kk-ex-gvX" secondAttribute="bottom" id="u9A-08-bME"/>
-                            <constraint firstItem="43e-pZ-QSQ" firstAttribute="top" secondItem="760-on-bPs" secondAttribute="bottom" id="wxa-ii-tJ2"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="titleItem" destination="85w-U8-Zb0" id="p4u-Fj-rIh"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuItemCell" id="f73-fK-uWS" customClass="MenuItemCell" customModule="MaestroMaker" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f73-fK-uWS" id="hgC-Pu-CHm">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZG-FD-PYZ">
+                                            <rect key="frame" x="8" y="8" width="160" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="titleLabel" destination="LZG-FD-PYZ" id="vMS-Gy-nbp"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="pdl-rp-B3L" id="M6i-Lc-oKS"/>
+                            <outlet property="delegate" destination="pdl-rp-B3L" id="by2-KS-OUX"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="MaestroMaker" id="Ahr-E7-6hs">
+                        <barButtonItem key="leftBarButtonItem" image="Settings" id="ZEN-77-fGe">
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="Settings" id="2uc-6U-bCG">
+                            <color key="tintColor" red="0.7265668511390686" green="0.41658878326416016" blue="0.75615555047988892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5uT-yV-Yt7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136" y="138"/>
+            <point key="canvasLocation" x="1536.8" y="135.38230884557723"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4ah-cb-0H0">
+            <objects>
+                <navigationController id="aFV-sO-2FO" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="57O-52-yH3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="pdl-rp-B3L" kind="relationship" relationship="rootViewController" id="vW3-7i-nT3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1LI-I4-8Qs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="788" y="135"/>
         </scene>
     </scenes>
     <resources>
