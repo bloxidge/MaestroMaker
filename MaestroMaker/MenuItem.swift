@@ -11,13 +11,13 @@ import UIKit
 let menuItemData : [MenuSection] = [
     MenuSection(title: "Learn", items:
         [
-            MenuItem(title: "Tutorials", image: #imageLiteral(resourceName: "wp1"))
+            MenuItem(title: "Tutorials", image: #imageLiteral(resourceName: "menu-tutorials"), selectedImage: #imageLiteral(resourceName: "menu-tutorials-sel"))
         ]
     ),
     MenuSection(title: "Practise", items:
         [
-            MenuItem(title: "Metronome", image: #imageLiteral(resourceName: "wp2")),
-            MenuItem(title: "Music", image: #imageLiteral(resourceName: "wp3"))
+            MenuItem(title: "Metronome", image: #imageLiteral(resourceName: "menu-metronome"), selectedImage: #imageLiteral(resourceName: "menu-metronome-sel")),
+            MenuItem(title: "Music", image: #imageLiteral(resourceName: "menu-music"), selectedImage: #imageLiteral(resourceName: "menu-music-sel"))
         ]
     )
 ]
@@ -37,8 +37,9 @@ struct MenuItem {
     
     var title : String?
     var image : UIImage?
+    var selectedImage : UIImage?
     
-    init(title: String?, image: UIImage?) {
+    init(title: String?, image: UIImage?, selectedImage: UIImage?) {
         self.title = title
         self.image = image
     }

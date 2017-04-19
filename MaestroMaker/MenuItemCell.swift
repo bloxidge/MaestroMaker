@@ -16,6 +16,7 @@ class MenuItemCell: UITableViewCell {
         didSet {
             titleLabel.text = menuItem.title
             backgroundView = UIImageView(image: menuItem.image)
+            selectedBackgroundView = UIImageView(image: menuItem.selectedImage)
             backgroundView?.contentMode = .scaleAspectFill
         }
     }
