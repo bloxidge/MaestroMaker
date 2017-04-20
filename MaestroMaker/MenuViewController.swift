@@ -50,9 +50,8 @@ class MenuViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        
+        // return the title for header in the section
         return menuSections[section].title
-        
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -84,7 +83,8 @@ class MenuViewController: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
+        tableView.headerView(forSection: indexPath.section)?.textLabel?.textColor = .green
     }
     */
 
@@ -112,5 +112,8 @@ class MenuViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func returnToMenuViewController(_ segue: UIStoryboardSegue) {
+    }
 
 }
