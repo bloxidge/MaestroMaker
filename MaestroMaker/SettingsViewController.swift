@@ -12,6 +12,7 @@ class SettingsViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     @IBAction func returnToSettingsViewController(_ segue: UIStoryboardSegue) {
