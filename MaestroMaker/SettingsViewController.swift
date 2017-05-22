@@ -1,30 +1,18 @@
 //
-//  MenuViewController.swift
+//  SettingsViewController.swift
 //  MaestroMaker
 //
-//  Created by Peter Bloxidge on 18/04/2017.
+//  Created by Peter Bloxidge on 10/05/2017.
 //  Copyright © 2017 Peter Bloxidge. All rights reserved.
 //
 
 import UIKit
 
-class MenuViewController: UITableViewController {
-    
-    private var titleImage : UIImage! {
-        didSet {
-            let titleImageView = UIImageView(image: titleImage)
-            titleImageView.contentMode = .scaleAspectFit
-            titleImageView.frame = CGRect(x: 0, y: 0, width: 40, height: 32)
-            navigationItem.titleView = titleImageView
-        }
-    }
-    private var menuSections : [MenuSection] = menuItemData
-    
+class SettingsViewController: UITableViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        titleImage = #imageLiteral(resourceName: "Title")
-        
+
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -32,40 +20,29 @@ class MenuViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     // MARK: - Table view data source
 
+    /*
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return menuSections.count
+        return 0
     }
-    
+
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return menuSections[section].items!.count
+        return 0
     }
+    */
 
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        // return the title for header in the section
-        return menuSections[section].title
-    }
-    
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 125
-    }
-
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MenuItemCell", for: indexPath) as! MenuItemCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-        let menuItem = menuSections[indexPath.section].items![indexPath.row] as MenuItem
-        cell.menuItem = menuItem
+        // Configure the cell...
 
         return cell
     }
+    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -83,8 +60,7 @@ class MenuViewController: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }
-        tableView.headerView(forSection: indexPath.section)?.textLabel?.textColor = .green
+        }    
     }
     */
 
@@ -111,9 +87,9 @@ class MenuViewController: UITableViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+     */
     
-    @IBAction func returnToMenuViewController(_ segue: UIStoryboardSegue) {
+    @IBAction func returnToSettingsViewController(_ segue: UIStoryboardSegue) {
     }
 
 }
