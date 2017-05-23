@@ -12,6 +12,9 @@
 		FD39951C1EA5816B007569F4 /* LaunchScreenGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = FD39951B1EA5816B007569F4 /* LaunchScreenGradient.png */; };
 		FD5551721EC3AD5B00D3DA49 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5551711EC3AD5A00D3DA49 /* SettingsViewController.swift */; };
 		FD84E5D21ED39CB100EB86D8 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84E5D11ED39CB100EB86D8 /* Piece.swift */; };
+		FD84E5D41ED470C600EB86D8 /* MusicSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84E5D31ED470C600EB86D8 /* MusicSelectionViewController.swift */; };
+		FD84E5D61ED474E500EB86D8 /* PieceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84E5D51ED474E500EB86D8 /* PieceCell.swift */; };
+		FD84E5D81ED4B59100EB86D8 /* MusicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84E5D71ED4B59100EB86D8 /* MusicDetailViewController.swift */; };
 		FDCC26EE1EA6614300F12FC2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC26ED1EA6614300F12FC2 /* MenuViewController.swift */; };
 		FDCC26F01EA669ED00F12FC2 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC26EF1EA669ED00F12FC2 /* MenuItem.swift */; };
 		FDCC26F21EA6760D00F12FC2 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC26F11EA6760D00F12FC2 /* MenuItemCell.swift */; };
@@ -91,6 +94,9 @@
 		FD39951B1EA5816B007569F4 /* LaunchScreenGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreenGradient.png; path = Resources/LaunchScreenGradient.png; sourceTree = "<group>"; };
 		FD5551711EC3AD5A00D3DA49 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FD84E5D11ED39CB100EB86D8 /* Piece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		FD84E5D31ED470C600EB86D8 /* MusicSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicSelectionViewController.swift; sourceTree = "<group>"; };
+		FD84E5D51ED474E500EB86D8 /* PieceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceCell.swift; sourceTree = "<group>"; };
+		FD84E5D71ED4B59100EB86D8 /* MusicDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDetailViewController.swift; sourceTree = "<group>"; };
 		FDCC26ED1EA6614300F12FC2 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		FDCC26EF1EA669ED00F12FC2 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		FDCC26F11EA6760D00F12FC2 /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
@@ -187,8 +193,11 @@
 				FDCC26ED1EA6614300F12FC2 /* MenuViewController.swift */,
 				FDCC26EF1EA669ED00F12FC2 /* MenuItem.swift */,
 				FDCC26F11EA6760D00F12FC2 /* MenuItemCell.swift */,
+				FD84E5D51ED474E500EB86D8 /* PieceCell.swift */,
 				FDE5D8531EA52DC0001144BE /* Main.storyboard */,
 				FD84E5D11ED39CB100EB86D8 /* Piece.swift */,
+				FD84E5D31ED470C600EB86D8 /* MusicSelectionViewController.swift */,
+				FD84E5D71ED4B59100EB86D8 /* MusicDetailViewController.swift */,
 				FD5551711EC3AD5A00D3DA49 /* SettingsViewController.swift */,
 				FD3995161EA57200007569F4 /* Resources */,
 				FDE5D8A21EA52DEF001144BE /* Supporting Files */,
@@ -464,10 +473,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD84E5D61ED474E500EB86D8 /* PieceCell.swift in Sources */,
+				FD84E5D41ED470C600EB86D8 /* MusicSelectionViewController.swift in Sources */,
 				FD84E5D21ED39CB100EB86D8 /* Piece.swift in Sources */,
 				FDCC26F01EA669ED00F12FC2 /* MenuItem.swift in Sources */,
 				FDCC26F21EA6760D00F12FC2 /* MenuItemCell.swift in Sources */,
 				FDE5D8501EA52DC0001144BE /* AppDelegate.swift in Sources */,
+				FD84E5D81ED4B59100EB86D8 /* MusicDetailViewController.swift in Sources */,
 				FD5551721EC3AD5B00D3DA49 /* SettingsViewController.swift in Sources */,
 				FDCC26EE1EA6614300F12FC2 /* MenuViewController.swift in Sources */,
 			);
