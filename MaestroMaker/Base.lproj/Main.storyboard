@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MaestroMaker-->
+        <!--Main Menu-->
         <scene sceneID="Hl6-t5-RYk">
             <objects>
-                <tableViewController id="pdl-rp-B3L" customClass="MenuViewController" customModule="MaestroMaker" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Main Menu" id="pdl-rp-B3L" userLabel="Main Menu" customClass="MenuViewController" customModule="MaestroMaker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" dataMode="static" style="grouped" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Rm2-X4-bxr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -157,19 +157,20 @@
         <!--Metronome-->
         <scene sceneID="pGp-51-uB1">
             <objects>
-                <viewController id="6Sa-KO-kva" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iai-YF-M4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController title="Metronome" id="6Sa-KO-kva" customClass="MetronomeViewController" customModule="MaestroMaker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uvR-8Y-9A3"/>
                         <viewControllerLayoutGuide type="bottom" id="Hbs-EX-Yc7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="eqN-Am-5pE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Metronome" id="gF1-AV-FFf"/>
+                    <navigationItem key="navigationItem" id="gF1-AV-FFf"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Iai-YF-M4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1537" y="978"/>
         </scene>
