@@ -28,6 +28,10 @@ struct Piece {
     var tempo : Int
     var artwork : UIImage?
     
+    var durationString : String {
+        return String(format: "%d:%02d", duration / 60, duration % 60)
+    }
+    
     init(_ title: String, composer: String, genre: Genre, duration: Int, startTempo: Int) {
         self.title = title
         self.composer = composer
