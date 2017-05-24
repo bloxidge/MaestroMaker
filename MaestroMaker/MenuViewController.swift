@@ -27,7 +27,6 @@ class MenuViewController: UITableViewController {
         super.viewDidLoad()
         
         titleImage = #imageLiteral(resourceName: "Title")
-        
         tutorialsCell.menuItem = menuItemData.first?.items?.first
         metronomeCell.menuItem = menuItemData.last?.items?.first
         musicCell.menuItem = menuItemData.last?.items?.last
@@ -35,5 +34,13 @@ class MenuViewController: UITableViewController {
 
     @IBAction func returnToMenuViewController(_ segue: UIStoryboardSegue) {
     }
-
+    
+    /*
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+    
 }
