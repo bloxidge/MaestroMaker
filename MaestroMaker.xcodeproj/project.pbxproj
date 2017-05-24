@@ -11,6 +11,13 @@
 		FD39951A1EA57FAB007569F4 /* LaunchLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3995191EA57FAB007569F4 /* LaunchLogo.png */; };
 		FD39951C1EA5816B007569F4 /* LaunchScreenGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = FD39951B1EA5816B007569F4 /* LaunchScreenGradient.png */; };
 		FD5551721EC3AD5B00D3DA49 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5551711EC3AD5A00D3DA49 /* SettingsViewController.swift */; };
+		FD84E5D21ED39CB100EB86D8 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84E5D11ED39CB100EB86D8 /* Piece.swift */; };
+		FD84E5D41ED470C600EB86D8 /* MusicSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84E5D31ED470C600EB86D8 /* MusicSelectionViewController.swift */; };
+		FD84E5D61ED474E500EB86D8 /* PieceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84E5D51ED474E500EB86D8 /* PieceCell.swift */; };
+		FD84E5D81ED4B59100EB86D8 /* MusicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84E5D71ED4B59100EB86D8 /* MusicDetailViewController.swift */; };
+		FD84E5DC1ED4FD4900EB86D8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84E5DB1ED4FD4900EB86D8 /* Extensions.swift */; };
+		FD84E5E81ED5027C00EB86D8 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD84E5E71ED5023E00EB86D8 /* GPUImage.framework */; };
+		FD84E5E91ED5027C00EB86D8 /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FD84E5E71ED5023E00EB86D8 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FDCC26EE1EA6614300F12FC2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC26ED1EA6614300F12FC2 /* MenuViewController.swift */; };
 		FDCC26F01EA669ED00F12FC2 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC26EF1EA669ED00F12FC2 /* MenuItem.swift */; };
 		FDCC26F21EA6760D00F12FC2 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC26F11EA6760D00F12FC2 /* MenuItemCell.swift */; };
@@ -29,6 +36,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FD84E5E41ED5023E00EB86D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD84E5DE1ED5023E00EB86D8 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		FD84E5E61ED5023E00EB86D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD84E5DE1ED5023E00EB86D8 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		FD84E5EA1ED5027C00EB86D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD84E5DE1ED5023E00EB86D8 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE209E41943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
 		FDE5D8611EA52DC0001144BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FDE5D8441EA52DC0001144BE /* Project object */;
@@ -60,6 +88,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		FD84E5EC1ED5027C00EB86D8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FD84E5E91ED5027C00EB86D8 /* GPUImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FDE5D8941EA52DC0001144BE /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,6 +128,12 @@
 		FD3995191EA57FAB007569F4 /* LaunchLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchLogo.png; path = Resources/LaunchLogo.png; sourceTree = "<group>"; };
 		FD39951B1EA5816B007569F4 /* LaunchScreenGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreenGradient.png; path = Resources/LaunchScreenGradient.png; sourceTree = "<group>"; };
 		FD5551711EC3AD5A00D3DA49 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FD84E5D11ED39CB100EB86D8 /* Piece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		FD84E5D31ED470C600EB86D8 /* MusicSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicSelectionViewController.swift; sourceTree = "<group>"; };
+		FD84E5D51ED474E500EB86D8 /* PieceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceCell.swift; sourceTree = "<group>"; };
+		FD84E5D71ED4B59100EB86D8 /* MusicDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDetailViewController.swift; sourceTree = "<group>"; };
+		FD84E5DB1ED4FD4900EB86D8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FD84E5DE1ED5023E00EB86D8 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = GPUImage/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
 		FDCC26ED1EA6614300F12FC2 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		FDCC26EF1EA669ED00F12FC2 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		FDCC26F11EA6760D00F12FC2 /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
@@ -119,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD84E5E81ED5027C00EB86D8 /* GPUImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +201,15 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		FD84E5DF1ED5023E00EB86D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD84E5E51ED5023E00EB86D8 /* libGPUImage.a */,
+				FD84E5E71ED5023E00EB86D8 /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		FDE5D8431EA52DC0001144BE = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +219,7 @@
 				FDE5D8781EA52DC0001144BE /* MaestroMaker WatchKit App */,
 				FDE5D8871EA52DC0001144BE /* MaestroMaker WatchKit Extension */,
 				FDE5D84D1EA52DC0001144BE /* Products */,
+				FD84E5DE1ED5023E00EB86D8 /* GPUImage.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,7 +241,12 @@
 				FDCC26ED1EA6614300F12FC2 /* MenuViewController.swift */,
 				FDCC26EF1EA669ED00F12FC2 /* MenuItem.swift */,
 				FDCC26F11EA6760D00F12FC2 /* MenuItemCell.swift */,
+				FD84E5D51ED474E500EB86D8 /* PieceCell.swift */,
 				FDE5D8531EA52DC0001144BE /* Main.storyboard */,
+				FD84E5DB1ED4FD4900EB86D8 /* Extensions.swift */,
+				FD84E5D11ED39CB100EB86D8 /* Piece.swift */,
+				FD84E5D31ED470C600EB86D8 /* MusicSelectionViewController.swift */,
+				FD84E5D71ED4B59100EB86D8 /* MusicDetailViewController.swift */,
 				FD5551711EC3AD5A00D3DA49 /* SettingsViewController.swift */,
 				FD3995161EA57200007569F4 /* Resources */,
 				FDE5D8A21EA52DEF001144BE /* Supporting Files */,
@@ -270,11 +331,13 @@
 				FDE5D8491EA52DC0001144BE /* Frameworks */,
 				FDE5D84A1EA52DC0001144BE /* Resources */,
 				FDE5D8981EA52DC0001144BE /* Embed Watch Content */,
+				FD84E5EC1ED5027C00EB86D8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				FDE5D8771EA52DC0001144BE /* PBXTargetDependency */,
+				FD84E5EB1ED5027C00EB86D8 /* PBXTargetDependency */,
 			);
 			name = MaestroMaker;
 			productName = MaestroMaker;
@@ -399,6 +462,12 @@
 			mainGroup = FDE5D8431EA52DC0001144BE;
 			productRefGroup = FDE5D84D1EA52DC0001144BE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FD84E5DF1ED5023E00EB86D8 /* Products */;
+					ProjectRef = FD84E5DE1ED5023E00EB86D8 /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FDE5D84B1EA52DC0001144BE /* MaestroMaker */,
@@ -409,6 +478,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FD84E5E51ED5023E00EB86D8 /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = FD84E5E41ED5023E00EB86D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FD84E5E71ED5023E00EB86D8 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = FD84E5E61ED5023E00EB86D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FDE5D84A1EA52DC0001144BE /* Resources */ = {
@@ -461,9 +547,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD84E5D61ED474E500EB86D8 /* PieceCell.swift in Sources */,
+				FD84E5D41ED470C600EB86D8 /* MusicSelectionViewController.swift in Sources */,
+				FD84E5D21ED39CB100EB86D8 /* Piece.swift in Sources */,
 				FDCC26F01EA669ED00F12FC2 /* MenuItem.swift in Sources */,
 				FDCC26F21EA6760D00F12FC2 /* MenuItemCell.swift in Sources */,
+				FD84E5DC1ED4FD4900EB86D8 /* Extensions.swift in Sources */,
 				FDE5D8501EA52DC0001144BE /* AppDelegate.swift in Sources */,
+				FD84E5D81ED4B59100EB86D8 /* MusicDetailViewController.swift in Sources */,
 				FD5551721EC3AD5B00D3DA49 /* SettingsViewController.swift in Sources */,
 				FDCC26EE1EA6614300F12FC2 /* MenuViewController.swift in Sources */,
 			);
@@ -497,6 +588,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FD84E5EB1ED5027C00EB86D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImageFramework;
+			targetProxy = FD84E5EA1ED5027C00EB86D8 /* PBXContainerItemProxy */;
+		};
 		FDE5D8621EA52DC0001144BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FDE5D84B1EA52DC0001144BE /* MaestroMaker */;
